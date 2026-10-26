@@ -1,0 +1,15 @@
+GET http://localhost:3000/materias
+
+###
+
+POST http://localhost:3000/materias
+Content-Type: application/json
+
+{
+    "nome": "Programação Web",
+    "professor": "Marcos",
+    "cargaHoraria": 80,
+    "nota": 9.5,
+    "aprendizado": "Criei minha primeira API com Express",
+    "imagem": "https://static.wikia.nocookie.net/srpelo-spookymonth/images/3/30/Oogabooga.png/revision/latest/scale-to-width-down/732?cb=20210221194410.png"
+}
